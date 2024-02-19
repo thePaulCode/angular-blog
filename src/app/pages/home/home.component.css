@@ -1,0 +1,6 @@
+.container__articles {
+  margin-top: 0.026em;
+
+  display: flex;
+  flex-direction: row;
+}
