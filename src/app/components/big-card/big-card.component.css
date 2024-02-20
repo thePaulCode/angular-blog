@@ -1,9 +1,9 @@
 .container__big-card {
-  border: solid black 0.04em; /* 2px convertido para em */
+  border: solid black .0em; /* 2px convertido para em */
   margin-left: 1.6em; /* 20px convertido para em */
-  margin-right: 1.6em; /* 20px convertido para em */
-  height: 31.25em; /* 500px convertido para em */
-  width: 50vw; /* 600px convertido para em */
+  margin-right: 2em; /* 20px convertido para em */
+  height: 27.25em; /* 500px convertido para em */
+  width: 28em; /* 600px convertido para em */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -14,20 +14,21 @@
   font-size: 1.25em; /* 20px convertido para em */
   margin-top: 0.9375em; /* 15px convertido para em */
   margin-bottom: 0.005em; /* 15px convertido para em */
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 .big-card__description > p  {
   color: rgb(0, 0, 0);
-  padding: 1em;
+  padding-top: 1em;
 }
 
 .big-card__photo >  img {
-  height: auto;
+  /* height: 25em; */
   width: 100%;
   overflow: hidden;
   left: 0;
   top: 0;
+
 }
 
 /* .big-card__title > h1 > a {
